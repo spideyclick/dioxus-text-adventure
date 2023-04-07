@@ -1,0 +1,11 @@
+.card.inventory_item {
+  display:flex;
+  gap: 0.5rem;
+}
+.card.inventory_item > small {
+  line-height: 1.5rem;
+  margin: 0 0.5rem;
+}
+.card.inventory_item > button:first-child {
+  margin-left: auto;
+}

@@ -1,0 +1,17 @@
+.modal {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid var(--text);
+  max-width: 30rem;
+  min-width: 35vw;
+  flex-wrap: wrap;
+}
+.modal.card > p {
+  margin: 0 0 0.5rem 0;
+}
+.horizontal-button-list {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}

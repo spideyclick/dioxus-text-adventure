@@ -1,0 +1,55 @@
+.alert {
+  margin: 0.25rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.alert-Info {
+  border: 0.25rem solid var(--blue);
+  background: var(--blue-transparent);
+}
+.alert-Warning {
+  border: 0.25rem solid var(--orange);
+  background: var(--orange-transparent);
+}
+.alert-Error {
+  border: 0.25rem solid var(--red);
+  background: var(--red-transparent);
+}
+.alert > button {
+  margin: -0.25rem;
+  border: none;
+  border-radius: 0;
+}
+
+.history-entry {
+  margin: 1rem 0.25rem;
+  white-space: pre-line;
+  box-sizing: border-box;
+  position: relative;
+}
+.history-entry::after {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  font-size: larger;
+}
+.history-entry.history-entry-Move {
+  border: 0.25rem solid var(--green);
+}
+.history-entry.history-entry-Move::after {
+  content: "🏃‍♂️";
+}
+.history-entry.history-entry-Action {
+  border: 0.25rem solid var(--red);
+}
+.history-entry.history-entry-Action::after {
+  content: "⚔️";
+}
+.history-entry.history-entry-Generic {
+  border: 0.25rem solid var(--blue);
+}
+.history-entry.history-entry-Generic::after {
+  content: "ℹ️";
+}

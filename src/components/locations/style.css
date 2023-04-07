@@ -1,0 +1,11 @@
+.card.scene {
+  display:flex;
+  gap: 0.5rem;
+}
+.card.scene > small {
+  line-height: 1.5rem;
+  margin: 0 0.5rem;
+}
+.card.scene > button:first-child {
+  margin-left: auto;
+}
