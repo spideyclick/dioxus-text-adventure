@@ -1,4 +1,4 @@
-# Rust-D20
+# Rust Dioxus Text Adventure
 
 This is an experimental project I created to explore the Rust programming language and various Frameworks.
 
