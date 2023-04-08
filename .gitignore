@@ -1,5 +1,4 @@
 /target
-/dist
 cargo.lock
 .vscode/*
 !.vscode/launch.json
